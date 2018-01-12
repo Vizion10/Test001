@@ -1,0 +1,35 @@
+#main {
+  border: 1px solid black;
+}
+
+#header {
+  text-align: center;
+}
+
+#page {
+  text-align: center;
+  border: 1px solid black;
+}
+
+#content {
+  border: 1px solid black;
+  float: right;
+  width: 69.5%;
+}
+
+#menu {
+  border: 1px solid black;
+  float: right;
+  width: 14.5%;
+}
+
+#menu2 {
+  border: 1px solid black;
+  float: right;
+  width: 14.5%;
+}
+
+#footer {
+  border: 1px solid black;
+  text-align: center;
+}

@@ -13,19 +13,19 @@
 
 #content {
   border: 1px solid black;
-  float: left;
+  float: right;
   width: 69.5%;
 }
 
 #menu {
   border: 1px solid black;
-  float: right;
+  float: left;
   width: 14.5%;
 }
 
 #menu2 {
   border: 1px solid black;
-  float: right;
+  float: left;
   width: 14.5%;
 }
 

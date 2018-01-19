@@ -4,12 +4,26 @@
 
 #header {
   text-align: center;
+  border: 1px solid black;
+  font-size: 32px;
+  color: white;
+  background-color: black;
+  padding: 10px;
 }
 
 #content {
   text-align: center;
+  float: left;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#img {
+  float: left;
 }
 
 #footer {
   text-align: center;
+  border: 1px solid black;
 }

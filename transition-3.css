@@ -1,0 +1,14 @@
+#zombie-female {
+  width: 521px;
+  height: 578px;
+  background: url(images/Femenino.png);
+  animation: run 1s steps(10) infinite, slide 2s steps(10000) infinite;
+}
+
+@keyframes run {
+  100% { background-position: -5210 }
+}
+
+@keyframes slide {
+    100% { margin-left: 521px }
+}

@@ -1,0 +1,17 @@
+img {
+    width: 500px;
+    height: 487px;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
+    transition-duration: 5s;
+    transition-property: width;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+img:hover {
+    width: 1000px;
+    height: 974px;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}

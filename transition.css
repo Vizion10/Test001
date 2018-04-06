@@ -1,0 +1,26 @@
+img {
+    width: 100px;
+    height: 100px;
+    transition-delay: 0.5s;
+    transition-timing-function: ease;
+    transition-duration: 2s;
+    transition-property: width;
+}
+
+img:hover {
+    width: 700px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: black;
+    transition-delay: 0.5s;
+    transition-timing-function: ease;
+    transition-duration: 2s;
+    transition-property: width;
+}
+
+div:hover {
+    width: 400px;
+}

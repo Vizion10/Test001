@@ -1,0 +1,27 @@
+* { box-sizing: border-box;}
+
+.ground {
+  animation: forward 10s steps(1000) infinite forwards;
+}
+
+@keyframes forward {
+  100% { background-position: -3840px; }
+}
+
+.background {
+  width: 3840px;
+  height: 1200px;
+  border: thin solid black;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.ground {
+  background-image: url(images/Gimp/ground.png);
+  width: 3840px;
+  height: 351px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
